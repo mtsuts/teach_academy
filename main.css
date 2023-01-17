@@ -1,0 +1,135 @@
+.logo {
+display: flex;
+align-items:center;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 42px;
+color: #000000;
+margin-left:45px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    margin-top:69px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    color: #000000;
+}
+.learning{
+    margin-left:75px;
+    margin-right: 35px;
+}
+.pricing{
+    margin-right: 59px;
+}
+.vector{
+    width: 15px;
+    height: 15px;
+}
+.auth{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:450px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    color: #000000;
+}
+.sign-up{
+    margin-left:10px;
+    border-style:groove;
+    padding-left:12px;
+    padding-right:12px;
+}
+.heading{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 100px;
+    color: #000000;
+    margin-left:45px;
+    margin-top:20px;
+}
+.para-head {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 47px;
+    color: #000000;
+    margin-left:45px;
+    margin-top:10px;
+}
+.para{
+    margin-left:45px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000000;
+    margin-top:18px;
+}
+.main-part{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    margin-left:45px;
+    margin-top:10px;
+}
+.subscribe input {
+    width:250px;
+    height:40px; 
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    color: #000000;
+    padding-left:10px;
+}
+.btn button {
+    height: 45px;
+    width:100px;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}
+.pic-expert{
+    position: relative;
+    margin-right:68px;
+
+}
+.pic {
+    position: absolute;
+    top:100px;
+    left:190px;
+}
+.seo{
+    position:absolute;
+    top:650px;
+    left:5px;
+    margin-top:5px;
+}
