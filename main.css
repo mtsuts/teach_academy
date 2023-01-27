@@ -21,7 +21,6 @@
 
 .header {
     display: flex;
-    align-items: center;
     margin-top: 69px;
 }
 
@@ -55,24 +54,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 450px;
+    margin-left:300px;
+}
+
+.sign-in {
+    border-style: double;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 42px;
-    color: #000000;
 }
 
 .sign-up {
     margin-left: 10px;
     border-style: double;
-    padding-left: 12px;
-    padding-right: 12px;
+    border-radius:5px;
+    text-align:center;
     text-decoration: none;
     width: 100px;
     height: 50px;
-    font-size: 20px;
     background-color: #CAE4C3;
     font-family: 'DM Sans';
     font-style: normal;
@@ -80,10 +86,12 @@
     font-size: 20px;
     line-height: 42px;
 }
-.sign-up:hover{
-    background-color:#FFFFFF;
-    cursor:pointer;
+
+.sign-up:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
+
 .heading {
     font-family: 'DM Sans';
     font-style: normal;
@@ -92,7 +100,6 @@
     line-height: 100px;
     color: #000000;
     margin-left: 45px;
-    margin-top: 20px;
 }
 
 .para-head {
@@ -119,7 +126,7 @@
 
 .main-part {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
 }
 
@@ -140,30 +147,31 @@
     line-height: 42px;
     color: #000000;
     padding-left: 10px;
-    border-radius:5px 0px 0px 5px;
-    padding:20px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 20px;
     border-width: 1px 0px 1px 1px;
 }
 
 .subscribe input:focus-visible {
-    outline:none;
+    outline: none;
 }
 
 
-.btn button {
+.btno button {
     height: 50px;
     width: 100px;
-    background-color:#CAE4C3;
-    color:#000000;
+    background-color: #CAE4C3;
+    color: #000000;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 35px;
-    border-radius:0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
     border-width: 1px 1px 1px 1px;
 }
-.btn button:hover{
+
+.btno button:hover {
     cursor: pointer;
     background-color: #FFFFFF;
 }
@@ -223,8 +231,8 @@
 }
 
 .popup-button:hover {
-   background-color: #FFFFFF;
-   cursor:pointer;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .input {
@@ -247,8 +255,65 @@
     top: 2px;
     right: -230px;
 }
-.icon:hover{
+
+.icon:hover {
     cursor: pointer;
 }
 
-@media (max-width: 1038px) {}
+.dropdown {
+    display:none;
+}
+
+@media (max-width: 1376px) {
+    .dropdown {
+        display: block;
+    }
+    .btn {
+        background-color: #CAE4C3;
+        color:#000000;
+        border-style: double;
+        border-radius:5px;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+        height: 50px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-left:50px;
+    }
+    .menu {
+        display:none;
+}
+    .heading {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+        margin-left: 45px;
+    }
+    .heading br {
+        display:none;
+    }
+    .auth {
+        margin-left:20px;
+    }
+    .main-part {
+        display: block;
+    }
+    .first-part {
+        margin-top:30px;
+    }
+    .popup {
+        position:absolute;
+        top:-250px;
+        right: -200px;
+    }
+    .main-container {
+        max-width: 490px;
+        margin: 0 auto;
+    }
+}
